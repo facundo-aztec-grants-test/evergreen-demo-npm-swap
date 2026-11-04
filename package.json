@@ -1,0 +1,8 @@
+{
+  "name": "evergreen-demo-npm-swap",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "elliptic": "6.6.1"
+  }
+}
