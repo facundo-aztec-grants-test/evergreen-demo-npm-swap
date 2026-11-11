@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "elliptic": "6.6.1"
+    "elliptic": "npm:@neverendingsupport/elliptic@6.6.1-elliptic-6.6.3"
+  },
+  "overrides": {
+    "elliptic@>=6.6.0 <=6.6.1": {
+      ".": "npm:@neverendingsupport/elliptic@6.6.1-elliptic-6.6.3"
+    }
   }
 }
