@@ -5,7 +5,14 @@
   "dependencies": {
     "elliptic": "6.6.1",
     "jsonwebtoken": "8.5.1",
-    "request": "2.88.2",
+    "request": "npm:@neverendingsupport/request@2.88.2-request-2.88.3",
     "xml2js": "0.4.23"
+  },
+  "overrides": {
+    "request@>=2.88.0 <=2.88.2": {
+      ".": "npm:@neverendingsupport/request@2.88.2-request-2.88.3"
+    },
+    "tough-cookie": "npm:@neverendingsupport/tough-cookie@2.5.0-tough-cookie-2.5.2",
+    "uuid": "npm:@neverendingsupport/uuid@3.4.0-uuid-3.4.2"
   }
 }
